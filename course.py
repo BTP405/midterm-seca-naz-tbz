@@ -22,6 +22,10 @@ class Course:
             sections (int, optional): The number of sections available for the course (default is 1).
             prerequisites (list, optional): List of prerequisite courses for the course (default is None).
         """
+        self.course_name = course_name
+        self.instructor = instructor
+        self.sections = sections
+        self.prerequisites = []
         pass
 
 
@@ -31,6 +35,10 @@ class Course:
         Args:
             student (Student): The student object to be enrolled or added to the waitlist.
         """
+        for i in range(len(self.section))
+            
+        
+        
         pass
 
 
@@ -57,5 +65,6 @@ class Course:
         Args:
             assessment (str): The description of the assessment to be added.
         """
+        
         pass
 

@@ -29,6 +29,10 @@ class Student:
             name (str): The name of the student.
             student_id (int): The unique ID of the student.
         """
+        self.name = name
+        self.student_id = student_id
+        self.enroll_course = []
+        self.grades = {}
         pass
 
 
@@ -42,6 +46,8 @@ class Student:
         Returns:
             None
         """
+        
+        self.enroll_course.append(course)
         pass
 
     def drop_course(self, course):
@@ -54,6 +60,8 @@ class Student:
         Returns:
             None
         """
+       
+        self.enroll_course.pop(course)
         pass
 
 
@@ -69,4 +77,6 @@ class Student:
         Returns:
             None
         """
+ 
+        
         pass
